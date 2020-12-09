@@ -19,11 +19,14 @@ class OfferSpider(scrapy.Spider):
 		title = response.xpath('//h1[@class="section-heading"]/text()').get()
 		
 		origen = response.xpath('//div[@class="card-small"]//div[@class="card-small-left"]/h4/text()').getall()
-		
+		#for origin in origen:
+			#print(origin)	
 		destino = response.xpath('//div[@class="card-small"]//div[@class="card-small-left"]/h3/text()').getall()
-		
+		#for destination in destino:
+			#print(destination)
 		precio = response.xpath('//div[@class="card-small"]//div[@class="card-small-right"]//span[@class="price-card"]/text()').getall()
-		
+		#for preci in precio:
+			#print(preci)
 		yield {
 			'titulo':title,
 			'origen':origen,
