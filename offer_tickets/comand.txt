@@ -1,0 +1,4 @@
+http://localhost/tickets/tickets_offers.html
+
+
+scrapy crawl offers 
