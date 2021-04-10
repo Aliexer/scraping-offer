@@ -1,0 +1,35 @@
+[
+    {
+        "titulo": "LATAM, aprovecha las ofertas y vuela hoy mismo",
+        "origen": [
+            "Bogot\u00e1 hacia:",
+            "Medell\u00edn hacia:",
+            "Cartagena hacia:",
+            "Cartagena hacia:",
+            "Bogot\u00e1:",
+            "Bogot\u00e1 hacia:",
+            "Bogot\u00e1 hacia:",
+            "Bogot\u00e1 hacia:"
+        ],
+        "destino": [
+            "San Andr\u00e9s",
+            "Santa Marta",
+            "Medell\u00edn",
+            "Bogot\u00e1",
+            "Cali",
+            "Barranquilla",
+            "Pereira",
+            "Cartagena"
+        ],
+        "precio": [
+            "$127.400 ",
+            "$145.300 ",
+            "$96.750",
+            "$99.900 ",
+            "$72.530",
+            "$73.580 ",
+            "$156.430 ",
+            "$119.150 "
+        ]
+    }
+]
